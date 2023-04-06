@@ -1,0 +1,47 @@
+.card {
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.35);
+    padding: 16px;
+}
+
+.cards { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* //Smael devices (lanscape phones, 576px and up) */ 
+@media (min-width: 576){
+    .card{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+/* //Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+    .card {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .card {
+            grid-template-columns: 1fr 1fr 1fr;
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .card {
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .card {
+            grid-template-columns: 1fr 1fr 1fr;
+}
